@@ -1,7 +1,6 @@
 package com.example.balraj.contentproviderapp;
 
 import android.annotation.TargetApi;
-import android.support.v4.content.AsyncTaskLoader;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.database.Cursor;
@@ -9,6 +8,8 @@ import android.net.Uri;
 import android.os.Build;
 import android.provider.BaseColumns;
 import android.util.Log;
+
+import androidx.loader.content.AsyncTaskLoader;
 
 import java.util.ArrayList;
 import java.util.List;
